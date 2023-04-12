@@ -176,7 +176,7 @@ const EditModal = ({show, onHide, onSubmit, currName, currEmail, currCourse}) =>
 }
 
 const GenerateMap = ({course}) => {
-    const key = process.env.REACT_APP_API_KEY
+    const key = 'AIzaSyDT69mIE8uM7Na69CPPOZX7rrpNx8MNJ7g' // process.env.REACT_APP_API_KEY
     const [validLocation, setValidLocation] = useState(true)
 
     useEffect(() => {

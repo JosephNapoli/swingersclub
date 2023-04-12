@@ -5,5 +5,7 @@
  **************************************************************************/
 
 export { default as studioTheme } from "./studioTheme";
-export { default as TodoCreateForm } from "./TodoCreateForm";
-export { default as TodoUpdateForm } from "./TodoUpdateForm";
+export { default as GameCreateForm } from "./GameCreateForm";
+export { default as GameUpdateForm } from "./GameUpdateForm";
+export { default as PlayerCreateForm } from "./PlayerCreateForm";
+export { default as PlayerUpdateForm } from "./PlayerUpdateForm";

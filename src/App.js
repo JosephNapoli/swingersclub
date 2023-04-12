@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
+import NavigationBar from "./NavigationBar";
+import {Container} from "react-bootstrap";
+import PathRoutes from "./Routes";
+import Home from "./Home";
+import Scoring from "./Scoring";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <NavigationBar/>
+        <Container fluid className="p-3">
+            <PathRoutes/>
+        </Container>
     </div>
   );
 }

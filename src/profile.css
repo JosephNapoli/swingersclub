@@ -1,0 +1,10 @@
+.profilepage {
+    background-image: url("/public/profile.jpeg");
+}
+.userIn {
+    align-content: space-around;
+}
+.profile-picture{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

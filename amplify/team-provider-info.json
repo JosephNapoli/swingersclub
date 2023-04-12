@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify0d8a21629fd54-staging-184658-authRole",
+      "UnauthRoleArn": "arn:aws:iam::908901207982:role/amplify-amplify0d8a21629fd54-staging-184658-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::908901207982:role/amplify-amplify0d8a21629fd54-staging-184658-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify0d8a21629fd54-staging-184658-deployment",
+      "UnauthRoleName": "amplify-amplify0d8a21629fd54-staging-184658-unauthRole",
+      "StackName": "amplify-amplify0d8a21629fd54-staging-184658",
+      "StackId": "arn:aws:cloudformation:us-east-2:908901207982:stack/amplify-amplify0d8a21629fd54-staging-184658/67d3a760-d962-11ed-8379-02669cd3afee",
+      "AmplifyAppId": "d206y2h5rf85ey"
+    },
+    "categories": {
+      "api": {
+        "swingersclub": {}
+      }
+    }
+  }
+}
